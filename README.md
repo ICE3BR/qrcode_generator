@@ -34,7 +34,7 @@ Este projeto permite a criação de QR Codes personalizados, incluindo a opção
 
 ## Customização
 
-- **Logotipo**: Para usar um logotipo personalizado, substitua o arquivo `logo_padrao.png` no diretório raiz (mesmo local do executável).
+- **Logotipo padrão**: Para usar um logotipo padrão personalizado, substitua o arquivo `logo_padrao.png` no diretório raiz (mesmo local do executável).
 - **Texto/URL**: Durante a execução, você pode definir o texto ou URL que será convertido em QR Code.
 
 ## Contribuições
