@@ -12,8 +12,8 @@ Este projeto permite a criação de QR Codes personalizados, incluindo a opção
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/seu_usuario/meu_projeto_qrcode.git
-    cd meu_projeto_qrcode
+    git clone https://github.com/seu_usuario/qrcode_generator.git
+    cd qrcode_generator
     ```
 
 2. **Instale as dependências**:
