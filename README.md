@@ -1,43 +1,43 @@
-# Gerador de QR Code com Logotipo
+# Gerador de QR Code com logotipo
 
-Este projeto permite a criação de QR Codes personalizados, incluindo a opção de adicionar um logotipo no centro.
+Projeto em Python para criar QR Codes a partir de textos ou URLs, com opção de inserir um logotipo no centro da imagem.
 
 ## Funcionalidades
 
-- Geração de QR Codes simples.
-- Geração de QR Codes com logotipo.
-- Personalização do texto/URL e do logotipo utilizado.
+- Geração de QR Codes
+- Personalização do conteúdo
+- Inclusão opcional de logotipo
+- Exportação da imagem gerada
+- Empacotamento como executável
 
-## Como Usar
+## Instalação
 
-1. **Clone o repositório**:
-    ```bash
-    git clone https://github.com/seu_usuario/qrcode_generator.git
-    cd qrcode_generator
-    ```
+```bash
+git clone https://github.com/ICE3BR/qrcode_generator.git
+cd qrcode_generator
+pip install -r requirements.txt
+```
 
-2. **Instale as dependências**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Execução
 
-3. **Execute o script**:
-    ```bash
-    python qrcode_generator.py
-    ```
+```bash
+python qrcode_generator.py
+```
 
-4. **Execute o script**:
-	```bash
-	pyinstaller --onefile qrcode_generator.py
-	```
-   - Isso vai criar o `qrcode_generator.exe` na pasta `dist/`.
+## Gerar executável
 
-## Customização
+```bash
+pyinstaller --onefile qrcode_generator.py
+```
 
-- **Logotipo padrão**: Para usar um logotipo padrão personalizado, substitua o arquivo `logo_padrao.png` no diretório raiz (mesmo local do executável).
-- **Texto/URL**: Durante a execução, você pode definir o texto ou URL que será convertido em QR Code.
+O executável será criado no diretório `dist`.
 
-## Contribuições
+## Tecnologias
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um _pull request_ ou relatar um _issue_.
+- Python
+- qrcode
+- Pillow
 
+## Licença
+
+Consulte os arquivos do repositório para verificar as condições de uso.
